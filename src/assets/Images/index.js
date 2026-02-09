@@ -17,7 +17,7 @@ import WHabba from './logo/Habba White Logo.png'
 
 //banne
 import library from "./background/8.png"
-import mlibrary from "./background/m8.png"
+import mlibrary from "./background/M8.png"
 import h from '../Images/h.png'
 import a from '../Images/a.png'
 import b from '../Images/b.png'
