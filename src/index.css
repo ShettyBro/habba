@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@plugin 'lightswind/plugin'; 
+
+/* Prevent padding/borders from causing accidental horizontal overflow */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.perspective {
+    perspective: 1000px;
+  }
+
+/* Prevent layout from exceeding viewport width and
+   make the root scroll container non-static for motion scroll hooks */
+html, body {
+  max-width: 100%;
+  position: relative;
+}
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+
+  .neon-text {
+    text-shadow: 0 0 10px #0ff, 0 0 30px #0ff;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* Default slide (side logos) */
+.slick-slide {
+  opacity: 0.5;
+  transform: scale(0.8);
+  transition: all 0.5s ease;
+}
+
+/* Center slide (big logo) */
+.slick-center {
+  opacity: 1;
+  transform: scale(1.25);
+  z-index: 2;
+}
+
