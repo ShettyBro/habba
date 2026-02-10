@@ -43,7 +43,7 @@ const APLCards = () => {
                 rel="noopener noreferrer"
                 className="mt-3 inline-block px-4 py-2 rounded-xl font-semibold text-black border hover:bg-green-500 border-black transition"
               >
-                Register Now
+                {club.button}
               </a>
               <div className="pt-2">
                 {club.message}

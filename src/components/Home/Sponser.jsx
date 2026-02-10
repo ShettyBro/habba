@@ -41,7 +41,6 @@ export default function Sponsor() {
 <div className="w-full py-32">
 <AnimatedContent distance={70} direction="vertical" reverse={false} duration={1}  ease="power3.out"  initialOpacity={0} animateOpacity  scale={1}  threshold={0.2}  delay={0.3}>
       <LogoSlider
-        backgroundImage="https://example.com/background.jpg"
         logos={logos}
       />
       </AnimatedContent>

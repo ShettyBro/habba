@@ -17,11 +17,6 @@ const LogoSlider = ({ logos = [], backgroundImage }) => {
     speed: 800,
     cssEase: "ease-in-out",
     pauseOnHover: false,
-    responsive: [
-      { breakpoint: 1024, settings: { slidesToShow: 3, centerMode: true } },
-      { breakpoint: 768, settings: { slidesToShow: 3, centerMode: true } },
-      { breakpoint: 480, settings: { slidesToShow: 3, centerMode: true } },
-    ],
   };
 
   return (

@@ -132,8 +132,8 @@ const Navbar = () => {
           {/* Register Button */}
           <a
             href="#events"
-            className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl border border-white/30
-            hover:bg-[#2CFF05] hover:text-black transition ${iconColorClass}`}
+            className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
+            ho hover:text-black transition ${iconColorClass}`}
           >
             Register Now
           </a>
@@ -159,14 +159,14 @@ const Navbar = () => {
         {/* Mobile Register Button */}
         <a
           href="#events"
-          className={`lg:hidden px-4 py-1 rounded-full text-xs font-semibold border border-white/30 backdrop-blur-xl ${iconColorClass}`}
+          className={`lg:hidden px-4 py-2 rounded-full text-lg font-semibold ${navGlassClass} backdrop-blur-xl ${iconColorClass}`}
         >
           Register
         </a>
 
         {/* Mobile Toggle */}
         <button
-          className={`lg:hidden text-2xl ${iconColorClass}`}
+          className={`lg:hidden text-2xl z-50 ${iconColorClass}`}
           onClick={() => setOpen(!open)}
         >
           {open ? <FaTimes /> : <FaBars />}
@@ -178,7 +178,7 @@ const Navbar = () => {
         onClick={() => setOpen(false)}
         className={`fixed inset-0 lg:hidden transition-all duration-700
         ${open ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"}
-        ${navGlassClass}`}
+        bg-white/30 backdrop-blur-3xl shadow-[0_0_30px_rgba(255,255,255,0.1)]`}
       >
         <ul
           onClick={(e) => e.stopPropagation()}

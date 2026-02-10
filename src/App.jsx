@@ -10,6 +10,7 @@ import ContactUs from './pages/ContactUs'
 import Footer from './components/Footer'
 import { IMAGES } from "./assets/Images/index";
 import IntroCover from './components/IntroCover'
+import ScrollToTop from './ScrollToTop'
 
 const App = () => {
   const [start, setStart] = useState(false);
@@ -26,8 +27,12 @@ const App = () => {
   </div>
   {!start && <IntroCover onFinish={() => setStart(true)} />}
 
-      {start && (
-        <> <Navbar />
+{start && (
+  <>
+    <ScrollToTop />   {/* ⭐ ADD HERE */}
+
+    <Navbar />
+
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/teams" element={<Teams />} />
@@ -37,8 +42,9 @@ const App = () => {
     </Routes>
 
     <Footer />
-        </>
-      )}
+  </>
+)}
+
 </div>
 
   )

@@ -61,7 +61,7 @@ const ScrollStack = ({ cards }) => {
       {/* PINNED AREA */}
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center overflow-hidden">
         {/* CARD STACK */}
-        <div className="relative w-[90%] h-[90vh] ">
+        <div className="relative w-[100%] h-[90vh] ">
           {cards.map((card, index) => {
             const isVisible = index <= active;
 
@@ -100,17 +100,22 @@ const ScrollStack = ({ cards }) => {
                 )}
 
                 {/* OVERLAY */}
-                <div className="absolute inset-0 bg-black/40 rounded-2xl" />
+                <div className="absolute inset-0 bg-black/50 rounded-2xl" />
 
                 {/* CONTENT */}
 <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
-  <h2 className="text-4xl md:text-7xl font-extrabold text-white leading-tight">
+  <h2 className="text-5xl md:text-7xl flex items-center justify-center font-extrabold text-white leading-tight">
     {card.title}
   </h2>
 
-  <p className="mt-6 text-lg md:text-2xl font-medium text-white/90 max-w-3xl">
-    {card.message}
-  </p>
+<p
+  className={`text-lg font-medium text-white/90 max-w-3xl ${
+    card.message ? "mt-10" : ""
+  }`}
+>
+  {card.message}
+</p>
+
 </div>
 
               </div>

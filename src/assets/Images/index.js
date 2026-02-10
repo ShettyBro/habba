@@ -14,7 +14,11 @@ import gallery12 from "./background/tembg.jpg"
 import HabbaLogo from "./logo/tplogo.png"
 import AcharyaLOGO from './logo/acharyalogo.png'
 import WHabba from './logo/Habba White Logo.png'
-
+import gpic from '../Images/grp.jpg'
+import event1 from '../Images/event1.png'
+import event2 from '../Images/event2.png'
+import event3 from '../Images/event3.png'
+import event4 from '../Images/event4.png'
 //banne
 import library from "./background/8.png"
 import mlibrary from "./background/M8.png"
@@ -72,5 +76,10 @@ export const IMAGES = {
   MT:mt,
   MU:mu,
   AVL:avl,
+  GPIC:gpic,
+  EVENT1:event1,
+  EVENT2:event2,
+  EVENT3:event3,
+  EVENT4:event4
 };
   
