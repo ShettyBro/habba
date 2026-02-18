@@ -7,33 +7,37 @@ const faqs = [
   {
     question: "Who can participate in Acharya Habba 2026?",
     answer:
-      "Quillorria is a premium personal care brand offering skincare, haircare, and combo packages to elevate your daily rituals.",
+      "Students of Acharya institutions as well as participants from other colleges are welcome to register and compete in various events, subject to the event guidelines.",
   },
   {
     question: "How do I register for events?",
     answer:
-      "Delivery usually takes 3-7 business days depending on your location.",
+      "Registrations can be completed online through the official website. Simply choose your event, fill in the required details, and confirm your participation.",
   },
   {
     question: "Is there a registration fee for participation?",
     answer:
-      "Yes, we offer returns within 15 days of purchase. Conditions apply as per our return policy.",
+      "Some events may require a nominal registration fee, while others are free. The fee details will be mentioned clearly on the respective event pages.",
+  },
+  {
+    question: "Can students from other colleges take part?",
+    answer: "Yes, Acharya Habba encourages intercollegiate participation and welcomes students from different institutions to join the celebration.",
   },
   {
     question: "Will participants receive certificates?",
-    answer: "Currently, we only ship within India.",
+    answer: "Yes, participants will receive certificates, and winners will be awarded prizes and special recognition.",
   },
   {
     question: "Where can I find the event schedule and timings?",
-    answer: "Currently, we only ship within India.",
+    answer: "The complete schedule, including venues and timings, will be available on the website. Stay updated to plan your fest experience.",
   },
   {
     question: "Are on-spot registrations allowed?",
-    answer: "Currently, we only ship within India.",
+    answer: "On-spot registrations may be available for selected events depending on slot availability. However, online pre-registration is highly recommended.",
   },
   {
     question: "Whom should I contact for queries or support?",
-    answer: "Currently, we only ship within India.",
+    answer: "You can reach out through the Contact Us section of the website or connect with the event coordinators listed for each event.",
   },
 ];
 

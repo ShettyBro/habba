@@ -2,13 +2,10 @@ import React , { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import AboutUs from './pages/AboutUs'
 import Teams from './pages/Team'
 import Events from './pages/Events'
-import Faqs from './pages/Faqs'
 import ContactUs from './pages/ContactUs'
 import Footer from './components/Footer'
-import { IMAGES } from "./assets/Images/index";
 import IntroCover from './components/IntroCover'
 import ScrollToTop from './ScrollToTop'
 
@@ -37,7 +34,6 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/teams" element={<Teams />} />
       <Route path="/events" element={<Events />} />
-      <Route path="/faq" element={<Faqs />} />
       <Route path="/contact" element={<ContactUs />} />
     </Routes>
 

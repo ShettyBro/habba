@@ -16,7 +16,7 @@ const cards = [
 title: (
   <div className="flex flex-col gap-2 md:gap-5 items-center justify-center">
     Find Your Event
-    <span className="text-4xl">At</span>
+    <span className="text-4xl ">At</span>
     Acharya Habba 2026
   </div>
 ),

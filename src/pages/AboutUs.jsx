@@ -10,9 +10,22 @@ import { HeroParallaxDemo } from '../components/Home/HeroParallaxDemo'
 import FAQ from '../components/Home/FAQ'
 // import Parallax from '../components/Home/Parallax'
 import Sponser from '../components/Home/Sponser'
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 
 const AboutUs = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className='bg-cover bg-center backdrop-blur-3xl w-full'  >
     <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />

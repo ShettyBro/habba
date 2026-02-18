@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaInstagram, FaWhatsapp, FaYoutube, FaBars, FaTimes } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IMAGES } from "../assets/Images";
@@ -130,13 +130,13 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-6">
 
           {/* Register Button */}
-          <a
-            href="#events"
-            className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
-            ho hover:text-black transition ${iconColorClass}`}
-          >
-            Register Now
-          </a>
+          <Link
+  to="/#events"
+  className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
+  hover:text-black transition ${iconColorClass}`}
+>
+  Register Now
+</Link>
 
           {/* Social Icons */}
         <div className={`hidden lg:flex gap-5 text-2xl ${iconColorClass}`}>
@@ -157,12 +157,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Register Button */}
-        <a
-          href="#events"
-          className={`lg:hidden px-4 py-2 rounded-full text-lg font-semibold ${navGlassClass} backdrop-blur-xl ${iconColorClass}`}
-        >
-          Register
-        </a>
+<Link
+  to="/#events"
+  className={`lg:hidden px-4 py-2 rounded-full text-lg font-semibold ${navGlassClass} backdrop-blur-xl ${iconColorClass}`}
+>
+  Register
+</Link>
+
 
         {/* Mobile Toggle */}
         <button

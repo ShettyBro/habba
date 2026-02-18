@@ -22,7 +22,7 @@ const APLCards = () => {
         {Apl.map((club, index) => (
           <div
             key={index}
-            className="relative w-[320px] h-[420px] rounded-3xl overflow-hidden shadow-xl"
+            className="relative w-[320px] h-[420px] border border-white/10 rounded-3xl overflow-hidden shadow-xl"
           >
             {/* Image */}
             <img
@@ -32,8 +32,8 @@ const APLCards = () => {
             />
 
             {/* Glass Bottom Panel */}
-            <div className="absolute bottom-0 left-0 w-full h-[35%] bg-white/30 backdrop-blur-xl p-5 text-center">
-              <h2 className="text-black text-xl font-semibold">
+            <div className="absolute bottom-0 left-0 w-full h-[35%] bg-black/30 backdrop-blur-xl p-3 text-center">
+              <h2 className="text-white text-2xl font-semibold">
                 {club.name}
               </h2>
 
@@ -41,11 +41,11 @@ const APLCards = () => {
                 href={club.registrationLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 inline-block px-4 py-2 rounded-xl font-semibold text-black border hover:bg-green-500 border-black transition"
+                className="mt-3 inline-block px-4 py-2 rounded-xl font-semibold text-white border hover:bg-green-500 border-white/50 transition"
               >
                 {club.button}
               </a>
-              <div className="pt-2">
+              <div className="pt-3 text-red-500">
                 {club.message}
               </div>
             </div>

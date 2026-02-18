@@ -39,6 +39,7 @@ import mv from '../Images/MV.png'
 import mt from '../Images/MT.png'
 import mu from '../Images/MU.png'
 import avl from '../Images/avl.png'
+import apl from '../Images/apl.png'
 
 export const IMAGES = {
   BACKGROUND:Background,
@@ -80,6 +81,7 @@ export const IMAGES = {
   EVENT1:event1,
   EVENT2:event2,
   EVENT3:event3,
-  EVENT4:event4
+  EVENT4:event4,
+  APLREG:apl,
 };
   
