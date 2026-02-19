@@ -14,7 +14,7 @@ export const Apl=[
     id: 1,
     name: "APL",
     image: IMAGES.APLREG,
-    registrationLink: "https://apl.acharyahabba.com",
+    registrationLink: "https://register.acharyahabba.com/register-apl",
     button:"Register Now",
     message:"Only for Acharya Students"
   },
