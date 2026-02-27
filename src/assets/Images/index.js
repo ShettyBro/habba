@@ -9,7 +9,7 @@ import gallery8 from "./allphoto/pho8.png"
 import gallery9 from "./allphoto/pho9.png"
 import gallery10 from "./allphoto/pho10.png"
 import gallery11 from "./background/cntbg.webp"
-import gallery12 from "./background/tembg.jpg"
+import gallery12 from "./background/tembg.webp"
 import HabbaLogo from "./logo/tplogo.png"
 import AcharyaLOGO from './logo/acharyalogo.png'
 import WHabba from './logo/Habba White Logo.png'
@@ -38,7 +38,7 @@ import mv from '../Images/hero/MV.png'
 import mt from '../Images/hero/MT.png'
 import mu from '../Images/hero/MU.png'
 import avl from '../Images/logo/avl.png'
-import apl from '../Images/apl.png'
+import apl from '../Images/apl.webp'
 
 export const IMAGES = {
   // BACKGROUND:Background,
