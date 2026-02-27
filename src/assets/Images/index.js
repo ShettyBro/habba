@@ -1,4 +1,3 @@
-import Background from "./bg.jpg"
 import gallery1 from "./allphoto/pho1.png"
 import gallery2 from "./allphoto/pho2.png"
 import gallery3 from "./allphoto/pho3.png"
@@ -9,40 +8,40 @@ import gallery7 from "./allphoto/pho7.png"
 import gallery8 from "./allphoto/pho8.png"
 import gallery9 from "./allphoto/pho9.png"
 import gallery10 from "./allphoto/pho10.png"
-import gallery11 from "./background/abtbg.jpg"
+import gallery11 from "./background/cntbg.webp"
 import gallery12 from "./background/tembg.jpg"
 import HabbaLogo from "./logo/tplogo.png"
 import AcharyaLOGO from './logo/acharyalogo.png'
 import WHabba from './logo/Habba White Logo.png'
-import gpic from '../Images/grp.jpg'
-import event1 from '../Images/event1.png'
-import event2 from '../Images/event2.png'
-import event3 from '../Images/event3.png'
-import event4 from '../Images/event4.png'
+import gpic from '../Images/background/grp.webp'
+import event1 from '../Images/background/event1.webp'
+import event2 from '../Images/background/event2.webp'
+import event3 from '../Images/background/event3.webp'
+import event4 from '../Images/background/event4.webp'
 //banne
-import library from "./background/8.png"
-import mlibrary from "./background/M8.png"
-import h from '../Images/h.png'
-import a from '../Images/a.png'
-import b from '../Images/b.png'
-import b2 from '../Images/b2.png'
-import a2 from '../Images/a2.png'
-import v from '../Images/v.png'
-import t from '../Images/t.png'
-import u from '../Images/u.png'
-import mh from '../Images/MH.png'
-import ma from '../Images/MA.png'
-import mb from '../Images/MB.png'
-import mb2 from '../Images/MB2.png'
-import ma2 from '../Images/MA2.png'
-import mv from '../Images/MV.png'
-import mt from '../Images/MT.png'
-import mu from '../Images/MU.png'
-import avl from '../Images/avl.png'
+import library from "./background/8.webp"
+import mlibrary from "./background/M8.webp"
+import h from '../Images/hero/h.png'
+import a from '../Images/hero/a.png'
+import b from '../Images/hero/b.png'
+import b2 from '../Images/hero/b2.png'
+import a2 from '../Images/hero/a2.png'
+import v from '../Images/hero/v.png'
+import t from '../Images/hero/t.png'
+import u from '../Images/hero/u.png'
+import mh from '../Images/hero/MH.png'
+import ma from '../Images/hero/MA.png'
+import mb from '../Images/hero/MB.png'
+import mb2 from '../Images/hero/MB2.png'
+import ma2 from '../Images/hero/MA2.png'
+import mv from '../Images/hero/MV.png'
+import mt from '../Images/hero/MT.png'
+import mu from '../Images/hero/MU.png'
+import avl from '../Images/logo/avl.png'
 import apl from '../Images/apl.png'
 
 export const IMAGES = {
-  BACKGROUND:Background,
+  // BACKGROUND:Background,
   GALLERY1:gallery1,
   GALLERY2:gallery2,
   GALLERY3:gallery3,
