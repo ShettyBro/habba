@@ -44,7 +44,7 @@ export default function TeamSection() {
   });
 
   return (
-    <section ref={sectionRef} className="py-20 text-white overflow-hidden">
+    <section ref={sectionRef} className="py-20 mt-10 text-white overflow-hidden">
       {/* SECTION ENTRANCE */}
       <motion.h2
         variants={containerVariants}

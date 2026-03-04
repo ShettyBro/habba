@@ -60,7 +60,7 @@ const AboutUs = () => {
           >
             <div className="hidden lg:flex h-full">
               <img
-                src={IMAGES.GALLERY12}
+                src={IMAGES.ABTHB1}
                 alt=""
                 className="h-full w-full object-cover rounded-3xl shadow-2xl"
               />
@@ -86,11 +86,11 @@ const AboutUs = () => {
         </div>
       </div>
       </div>
-      <AnimatedContent distance={70} direction="vertical" reverse={false} duration={1}  ease="power3.out"  initialOpacity={0} animateOpacity  scale={1}  threshold={0.2}  delay={0.3}>
+      {/* <AnimatedContent distance={70} direction="vertical" reverse={false} duration={1}  ease="power3.out"  initialOpacity={0} animateOpacity  scale={1}  threshold={0.2}  delay={0.3}>
         <div>
       <Sponser/>
         </div>
-      </AnimatedContent>
+      </AnimatedContent> */}
       <AnimatedContent distance={70} direction="vertical" reverse={false} duration={1}  ease="power3.out"  initialOpacity={0} animateOpacity  scale={1}  threshold={0.2}  delay={0.3}>
         <div>
         <Gallery/>

@@ -449,7 +449,7 @@ export const TeamCarousel: React.FC<TeamCarouselProps> = ({
             style={{ color: infoTextColor }}
           >
             {members[currentIndex].role}
-          </p>
+          </p> 
           {members[currentIndex].bio && (
             <p className="text-base mt-4 max-w-lg mx-auto opacity-70">
               {members[currentIndex].bio}

@@ -1,13 +1,13 @@
-import gallery1 from "./allphoto/pho1.png"
-import gallery2 from "./allphoto/pho2.png"
-import gallery3 from "./allphoto/pho3.png"
-import gallery4 from "./allphoto/pho4.png"
-import gallery5 from "./allphoto/pho5.png"
-import gallery6 from "./allphoto/pho6.png"
-import gallery7 from "./allphoto/pho7.png"
-import gallery8 from "./allphoto/pho8.png"
-import gallery9 from "./allphoto/pho9.png"
-import gallery10 from "./allphoto/pho10.png"
+import gallery1 from "./allphoto/pho1.webp"
+import gallery2 from "./allphoto/pho2.webp"
+import gallery3 from "./allphoto/pho3.webp"
+import gallery4 from "./allphoto/pho4.webp"
+import gallery5 from "./allphoto/pho5.webp"
+import gallery6 from "./allphoto/pho6.webp"
+import gallery7 from "./allphoto/pho7.webp"
+import gallery8 from "./allphoto/pho8.webp"
+import gallery9 from "./allphoto/pho9.webp"
+import gallery10 from "./allphoto/pho10.webp"
 import gallery11 from "./background/cntbg.webp"
 import gallery12 from "./background/tembg.webp"
 import HabbaLogo from "./logo/tplogo.png"
@@ -21,24 +21,28 @@ import event4 from '../Images/background/event4.webp'
 //banne
 import library from "./background/8.webp"
 import mlibrary from "./background/M8.webp"
-import h from '../Images/hero/h.png'
-import a from '../Images/hero/a.png'
-import b from '../Images/hero/b.png'
-import b2 from '../Images/hero/b2.png'
-import a2 from '../Images/hero/a2.png'
-import v from '../Images/hero/v.png'
-import t from '../Images/hero/t.png'
-import u from '../Images/hero/u.png'
-import mh from '../Images/hero/MH.png'
-import ma from '../Images/hero/MA.png'
-import mb from '../Images/hero/MB.png'
-import mb2 from '../Images/hero/MB2.png'
-import ma2 from '../Images/hero/MA2.png'
-import mv from '../Images/hero/MV.png'
-import mt from '../Images/hero/MT.png'
-import mu from '../Images/hero/MU.png'
+import h from '../Images/hero/h.webp'
+import a from '../Images/hero/a.webp'
+import b from '../Images/hero/b.webp'
+import b2 from '../Images/hero/b2.webp'
+import a2 from '../Images/hero/a2.webp'
+import v from '../Images/hero/v.webp'
+import t from '../Images/hero/t.webp'
+import u from '../Images/hero/u.webp'
+import mh from '../Images/hero/MH.webp'
+import ma from '../Images/hero/MA.webp'
+import mb from '../Images/hero/MB.webp'
+import mb2 from '../Images/hero/MB2.webp'
+import ma2 from '../Images/hero/MA2.webp'
+import mv from '../Images/hero/MV.webp'
+import mt from '../Images/hero/MT.webp'
+import mu from '../Images/hero/MU.webp'
 import avl from '../Images/logo/avl.png'
 import apl from '../Images/apl.webp'
+import vtu from '../Images/vtu.webp'
+import abtvtu from '../Images/background/abtvtu.webp'
+import abthb1 from '../Images/background/abthb1.webp'
+import abthb2 from '../Images/background/abthb2.webp'
 
 export const IMAGES = {
   // BACKGROUND:Background,
@@ -82,5 +86,9 @@ export const IMAGES = {
   EVENT3:event3,
   EVENT4:event4,
   APLREG:apl,
+  VTUREG:vtu,
+  ABTVU:abtvtu,
+  ABTHB1:abthb1,
+  ABTHB2:abthb2,
 };
   

@@ -34,9 +34,9 @@ const Intro = () => {
         
         {/* Image */}
         <motion.img
-          src={IMAGES.GALLERY12}
+          src={IMAGES.ABTHB2}
           alt=""
-          className="rounded-3xl w-full"
+          className="rounded-3xl max-h-[250px] md:max-h-[350px] h-full object-cover border border-white/10 w-full"
           variants={fadeLeft}
           initial="hidden"
           whileInView="visible"
@@ -77,9 +77,9 @@ const Intro = () => {
 
         {/* Image */}
         <motion.img
-          src={IMAGES.GALLERY12}
+          src={IMAGES.ABTVU}
           alt=""
-          className="rounded-3xl w-full order-1 md:order-2"
+          className="rounded-3xl w-full max-h-[350px] order-1 md:order-2"
           variants={fadeRight}
           initial="hidden"
           whileInView="visible"

@@ -109,7 +109,7 @@ const ScrollStack = ({ cards }) => {
   </h2>
 
 <p
-  className={`text-lg font-medium text-white/90 max-w-3xl ${
+  className={`text-lg md:text-xl font-medium text-white/80 max-w-3xl ${
     card.message ? "mt-10" : ""
   }`}
 >
