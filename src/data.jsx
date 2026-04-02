@@ -114,11 +114,6 @@ export const TEAM = {
         src: IMAGES.RANDOM,
       },
       {
-        title: "Ayush Chauhan",
-        description: "iCare Head",
-        src: IMAGES.RANDOM,
-      },
-      {
         title: "Mita Nagaraj",
         description: "UNDER25 Head",
         src: IMAGES.RANDOM,
@@ -192,6 +187,7 @@ export const TEAM = {
   };
   
 
+
 export const EVENTS = [
   {
     name: "Adventure Club",
@@ -263,7 +259,7 @@ export const EVENTS = [
     name: "BCT Club",
     image: IMAGES.RANDOM,
     registrationLink: "https://example.com/register",
-    events: ["Student of the Year Day 1","Student of the Year Day 2","Student of the Year Day 3","Soap Football","Escape Room","All Sports Golf"],
+    events: ["Movie Screening (Horror)","Student of the Year Day 1","Student of the Year Day 2","Student of the Year Day 3","Soap Football","Escape Room","All Sports Golf"],
   },
   {
     name: "Fine Arts",
@@ -300,12 +296,6 @@ export const EVENTS = [
     image: IMAGES.RANDOM,
     registrationLink: "https://example.com/register",
     events: ["Auto Expo","Me Stori","AeroXcelerate"],
-  },
-  {
-    name: "iCARE & BCT",
-    image: IMAGES.RANDOM,
-    registrationLink: "https://example.com/register",
-    events: ["Movie Screening (Horror)"],
   },
   {
     name: "All Clubs",
