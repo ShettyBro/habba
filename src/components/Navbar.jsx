@@ -90,9 +90,9 @@ const Navbar = () => {
         {/* Logo */}
         <NavLink
           to="/"
-          className={`inline-flex items-center justify-center w-44 h-14 p-1 
+          className={`inline-flex items-center justify-center w-44 h-14 p-3 
           backdrop-blur-2xl rounded-full shadow transition-transform hover:scale-105
-          ${!isHome || scrolled ? "bg-white/70 border-white/30" : "bg-black/5 border-black/40"}`}
+          ${!isHome || scrolled ? "bg-white/30 border-white/30" : "bg-black/20 border-black/40"}`}
         >
           <img src={IMAGES.AVL} alt="logo" />
         </NavLink>
