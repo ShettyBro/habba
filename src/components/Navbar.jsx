@@ -134,7 +134,7 @@ const Navbar = () => {
           className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
           hover:text-black transition ${iconColorClass}`}
         >
-          Download Broucher
+          Broucher
         </a>
 
           {/* Social Icons */}
@@ -157,12 +157,10 @@ const Navbar = () => {
 
         {/* Mobile Register Button */}
 <a href="/VTU Fest 2026.pdf" download="VTU Fest 2026.pdf"
-          className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
-          hover:text-black transition ${iconColorClass}`}
-        >
-          Download Broucher
-        </a>
-
+  className={`lg:hidden px-4 py-2 rounded-full text-lg font-semibold ${navGlassClass} backdrop-blur-xl ${iconColorClass}`}
+>
+  Broucher
+</a>
 
         {/* Mobile Toggle */}
         <button
