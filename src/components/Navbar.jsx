@@ -130,13 +130,12 @@ const Navbar = () => {
         <div className="hidden lg:flex items-center gap-6">
 
           {/* Register Button */}
-          <Link
-  to="/#events"
-  className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
-  hover:text-black transition ${iconColorClass}`}
->
-  Register Now
-</Link>
+        <a href="/VTU Fest 2026.pdf" download="VTU Fest 2026.pdf"
+          className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
+          hover:text-black transition ${iconColorClass}`}
+        >
+          Download Broucher
+        </a>
 
           {/* Social Icons */}
         <div className={`hidden lg:flex gap-5 text-2xl ${iconColorClass}`}>
@@ -157,12 +156,12 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Register Button */}
-<Link
-  to="/#events"
-  className={`lg:hidden px-4 py-2 rounded-full text-lg font-semibold ${navGlassClass} backdrop-blur-xl ${iconColorClass}`}
->
-  Register
-</Link>
+<a href="/VTU Fest 2026.pdf" download="VTU Fest 2026.pdf"
+          className={`px-5 py-2 rounded-full font-semibold backdrop-blur-xl ${navGlassClass} z-10
+          hover:text-black transition ${iconColorClass}`}
+        >
+          Download Broucher
+        </a>
 
 
         {/* Mobile Toggle */}
