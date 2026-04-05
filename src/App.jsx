@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import IntroCover from "./components/IntroCover";
 import ScrollToTop from "./ScrollToTop";
+import Vtu from "./pages/Vtu";
 
 // Lazy pages
 const Teams = lazy(() => import("./pages/Team"));
@@ -44,6 +45,7 @@ const App = () => {
           >
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/vtu" element={<Vtu />} />
               <Route path="/teams" element={<Teams />} />
               <Route path="/events" element={<Events />} />
               <Route path="/contact" element={<ContactUs />} />

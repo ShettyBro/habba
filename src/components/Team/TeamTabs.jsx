@@ -1,7 +1,8 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 
-const tabs = ["faculty", "technical", "coordinator"];
+// const tabs = ["faculty", "technical", "coordinator"];
+const tabs = ["faculty"];
 
 export default function TeamTabs({ activeTab, setActiveTab }) {
   const sectionRef = useRef(null);

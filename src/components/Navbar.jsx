@@ -7,6 +7,7 @@ import { LINK } from "../data";
 
 const links = [
   { id: "home", label: "Home", path: "/" },
+  { id: "vtu", label: "VTU", path: "/vtu" },
   { id: "events", label: "Events", path: "/events" },
   { id: "teams", label: "Teams", path: "/teams" },
   { id: "contact", label: "Contact Us", path: "/contact" },
