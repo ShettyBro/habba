@@ -1,8 +1,11 @@
 import React from "react";
 import { Apl } from "../../data";
 import GradientText from "../motion/GradientText";
+import { useNavigate } from "react-router-dom";
 
 const APLCards = () => {
+  const navigate = useNavigate();
+
   return (
     <div>
       {/* Title */}
@@ -37,14 +40,20 @@ const APLCards = () => {
                 {club.name}
               </h2>
 
-              <a
-                href={club.registrationLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-block px-4 py-2 rounded-xl font-semibold text-white border hover:bg-green-500 border-white/50 transition"
+              {/* ✅ Smart Button */}
+              <button
+                onClick={() => {
+                  if (club.route) {
+                    navigate(club.route); // internal navigation
+                  } else {
+                    window.open(club.registrationLink, "_blank"); // external link
+                  }
+                }}
+                className="mt-3 px-4 py-2 rounded-xl font-semibold text-white border hover:bg-green-500 border-white/50 transition"
               >
                 {club.button}
-              </a>
+              </button>
+
               <div className="pt-3 text-red-500">
                 {club.message}
               </div>

@@ -47,7 +47,7 @@ export default function GlassImageCard({ club }) {
           {/* Bottom Glass Panel */}
           <div className="
             absolute bottom-0 left-0 w-full
-            bg-white/30 backdrop-blur-lg
+            bg-white/40 backdrop-blur-lg
             p-4
             flex flex-col justify-center items-center
           ">
@@ -94,29 +94,8 @@ export default function GlassImageCard({ club }) {
     {club.events.map((event, i) => (
       <li key={i}>{event}</li>
     ))}
-  </ul>
-
-  {/* Register Button */}
-  <a
-    href={club.registrationLink}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="
-      mt-4 py-3 text-center absolute bottom-6 left-6 right-6 rounded-xl font-semibold
-      text-white border border-white/30
-      hover:bg-green-500
-      transition
-      tracking-wide
-    "
-    onClick={(e) => e.stopPropagation()}
-  >
-    Register Now
-  </a>
-
-  
+  </ul>  
 </div>
-
-
         </div>
       </div>
     </div>

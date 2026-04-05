@@ -52,6 +52,27 @@ import krishna from '../Images/team/faculty/krishna.webp'
 import visesh from '../Images/team/faculty/visesh.webp'
 import random from '../Images/team/random.jpg'
 
+//events
+import adventure from '../Images/events/adventure.png'
+import gaming from '../Images/events/gaming.png'
+import prathibimbah from '../Images/events/prathibimbah.png'
+import Sahitya from '../Images/events/sahitya.png'
+import AFF from '../Images/events/aff.png'
+import IED from '../Images/events/ied.png'
+import TBO from '../Images/events/tbo.png'
+import UNDER25 from '../Images/events/under25.png'
+import ZEP from '../Images/events/zep.png'
+import AKV from '../Images/events/akv.png'
+import Piston from '../Images/events/piston.png'
+import BCT from '../Images/events/bct.png'
+import FineArts from '../Images/events/finearts.png'
+import NatureWatch from '../Images/events/naturewatch.png'
+import MUNSOC from '../Images/events/munsoc.png'
+import Fashion from '../Images/events/fashion.png'
+import Dance from '../Images/events/dance.png'
+import Centralized from '../Images/events/centralized.png'
+import All from '../Images/events/all.png'
+
 export const IMAGES = {
   // BACKGROUND:Background,
   GALLERY1:gallery1,
@@ -104,5 +125,24 @@ export const IMAGES = {
   VISESH:visesh,
   TEJAS:tejas,
   RANDOM:random,
+  ADVENTURE:adventure,
+  GAMING:gaming,
+  PRATHIBIMBHA:prathibimbah,
+  SAHITYA:Sahitya,
+  AFF:AFF,
+  IED:IED,
+  TBO:TBO,
+  UNDER25:UNDER25,
+  ZEP:ZEP,
+  AKV:AKV,
+  PISTON:Piston,
+  BCT:BCT,
+  FINEARTS:FineArts,
+  NATUREWATCH:NatureWatch,
+  MUNSOC:MUNSOC,
+  FASHION:Fashion,
+  DANCE:Dance,
+  CENTRALIZED:Centralized,
+  ALL:All
 };
   
